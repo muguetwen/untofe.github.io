@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>【hexo d报错】GH006:Protected branch update failed for refs/heads/master</title>
+    <link href="/2023/03/27/20230327a/"/>
+    <url>/2023/03/27/20230327a/</url>
+    
+    <content type="html"><![CDATA[<figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-comment">remote: error: GH006: Protected branch update failed for refs/heads/master.</span><br><span class="hljs-comment">remote: error: Cannot force-push to a protected branch.</span><br></code></pre></td></tr></table></figure><p>修复方法：删除分支保护<br>操作：Settings-branches-Branch protection rules.删除里面的rules</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>报错修复</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我终于有笔记本电脑了</title>
+    <link href="/2022/11/04/2022-11-04/"/>
+    <url>/2022/11/04/2022-11-04/</url>
+    
+    <content type="html"><![CDATA[<p>我的联想小新pro16终于到了，双十一抢先购5399入手。<br>终于可以编程和画画了。<br>这台电脑的屏幕比我的那个台式机要好太多了，打开软件的速度也很快（特别是Krita）。<br>电脑的cpu很新，不过是集成显卡。<br>usb接口比较少，最后买了拓展坞。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>日常</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2020/10/04</title>
+    <link href="/2022/10/04/2022-10-4/"/>
+    <url>/2022/10/04/2022-10-4/</url>
+    
+    <content type="html"><![CDATA[<p>我现在很焦虑，感觉世界没有未来一样。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>日常</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2022年重启Blog</title>
+    <link href="/2022/09/25/hello-world/"/>
+    <url>/2022/09/25/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>高考过后，我终于重启了Blog，从gitee搬家到github。<br>折腾了一天，我终于成功部署到github上了。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【游戏评论】凯尔文-Kelvin and the Chateau</title>
+    <link href="/2022/02/03/Chateau/"/>
+    <url>/2022/02/03/Chateau/</url>
+    
+    <content type="html"><![CDATA[<p>（注：本文有剧透）</p><blockquote><p>游戏名称：凯尔文-Kelvin and the Chateau<br>作者：Forgotten<br>官方网站：<a href="https://www.dangoiz.com/">https://www.dangoiz.com</a><br>官方简介:<br>一场大火烧毁了凯尔文的家，也燃尽了他儿时快乐的生活。即使当时妈妈带他逃离了灾难，他的青春也仍因变了味的家庭而空虚无趣。凯尔文的过往和身份为他覆上了一层自卑，直到他遇见了珍贵的朋友们——一年前，他背着控制欲旺盛的妈妈考上了对岸的一所高中，结识了笔友艾蕾达斯，以及其他许许多多的好友。而如今，期末已过，是他回家的时候了……<br>《凯尔文》是一款免费的单机像素RPG剧情游戏。扮演名为凯尔文的高中生，邂逅叹息之城的王女，结交各样的新朋友，体验学校生活，探索家庭过往的谜团。准备好迎接新的生活吧！</p></blockquote><hr><h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><p>先说说游戏体验。我的游戏时长大概有2小时半，很糟糕的游戏体验。大多数人物的名字我都记不清，有些地方根本没有提示我下一步要做什么或去哪里，就在地图上瞎逛，时间都浪费在跑路上了。支线剧情和任务都与主线没有关系。本来有许多人物认不清，竟然有送东西的任务。还有许多并不有趣的小游戏，看起来像是用来延长游戏时间的。游戏有很多细节，然而都做得不到位，像是为了细节而添加细节。游戏的完成度不高，需要仔细打磨。</p><h2 id="一-游戏设计"><a href="#一-游戏设计" class="headerlink" title="一.游戏设计"></a>一.游戏设计</h2><ul><li><p>美术与音乐</p><p>  美术和音乐都很不错，有自己的特色，我当时就是被这个独特的美术风格吸引来的，在这点值得称赞。但也有值得挑刺的地方。</p><p>  例如：<strong>人物行走</strong></p><p>  行走的动作不明显，人物走路都是小碎步。横向还好，纵向很容易看成平移或拖着地。有些地方按住shift疾走，主角看起来就像个棋子一样平移。</p></li></ul><p><img src="background.png"></p><p><font color="#66ccff"><center>横向行走</center></font></p><p><img src="http://i0.hdslb.com/bfs/article/ec423de9a615ee4dc19f0b99182513d6b9b7e2df.gif"></p><p><font color="#66ccff"><center>纵向行走</center></font></p><p><img src="http://i0.hdslb.com/bfs/article/4abeafb8a32d7e26e19c17c464f582703af2d3f2.gif"></p><p><font color="#66ccff"><center>主角“平移”</center></font></p><ul><li><p>引导</p><p>  很明显，作者没有做好<strong>引导</strong>。很多地方，没有任何提示我下一步该干什么？</p><p>  我印象最深刻的就是学校的地下室里。我当时就在这里卡关了，不知道怎么推动剧情。最后好不容易才知道是要点左边的那个箱子找到一个摇铃。这里作者没有设置任何引导，又或者引导不明显我看不出来。作者可以通过<strong>视觉引导</strong>，在箱子上画上”<strong>白色小星星</strong>“来暗示玩家——这里有东西。</p><p>  作者也可以用这种方式，来引导玩家下一步怎么做，或者埋在与NPC的对话里。由于这个游戏的地图特点，在地图上找人的时候，可以添加提示箭头。</p><p>  <strong>如果做好了引导，游戏体验自然直线上升。</strong></p></li></ul><p><img src="http://i0.hdslb.com/bfs/article/316f27a1bc3623ef1a79071371bd5d6734aa529e.png@942w_567h_progressive.webp"></p><pre><code class="hljs">举一个好案例。在游戏《独自在家》中，有两扇门之间的墙上有个隐藏的密码锁。旧版里，如果不看评论，谁能找得出来？而重置版解决了这个问题，在密码锁上面挂上鳄鱼挂件，再加上一束光照在墙上，暗示玩家这里有东西。</code></pre><p><img src="http://i0.hdslb.com/bfs/article/489a876ea71602f51b28def704e4c75536599eaf.png@942w_674h_progressive.webp"></p><p><font color="#66ccff"><center>旧版</center></font></p><p><img src="http://i0.hdslb.com/bfs/article/eedd5398187252520d9ed3558be39d08162ebee0.png@881w_557h_progressive.webp"></p><p><font color="#66ccff"><center>重置版</center></font></p><ul><li><p>任务设计</p><p>  送东西的小任务。我根本记不住人物的名字，也分不清谁和谁，完成只能靠运气。</p></li><li><p>小游戏设计</p><p>  互动性较差。猜拳、快递分区、猜动物这些游戏很无聊，而且玩家通过了也不会有太大的成就感。</p></li><li><p>谜题设计</p></li></ul><p>一般</p><h2 id="二-故事剧情与人物塑造"><a href="#二-故事剧情与人物塑造" class="headerlink" title="二.故事剧情与人物塑造"></a>二.故事剧情与人物塑造</h2><ul><li><p>剧情</p><p>  私生子凯尔文是布兰科斯托魔法学院的学生，临近放假时，外出旅游碰巧遇到了以前经常通信的笔友，其真实身份是公主艾蕾达斯。回到学校后，闯入地下室发现一面魔镜。放假后，凯尔文赴约再次与公主相见，得知了她被迫政治联姻。公主给主角一封信，信里面写了晚上逃跑的计划。之后，主角回家见母亲，最后发现母亲对自己的“爱”不过只是占有欲，是一个牢笼。受到了艾蕾达斯思想的影响，于是他决定逃出这个牢笼。最后，他去参加捕鱼之夜晚会，救出公主，乘着小船开始浪迹天涯。【故事终】</p><p>  凯尔文和艾蕾达斯都是被困的“囚徒”，一个是充满占有欲的“母爱”，一个是政治婚姻。故事核心就是两者冲破牢笼的过程。</p><p>  整个剧情来说中规中矩。整个的游戏时间很短，有很多时间都在讲与主线剧情无关的事。时间太短，塞不下很多设定，玩家也不会有很多认同感。支线情节如果能和主角或主线剧情有联系会更好。建议收掉所有的伏线，除非是为了做系列作埋伏笔。</p></li><li><p>角色塑造</p><p>  几乎所有所有的角色都有名字，都有头像。但几乎大多是是扁平角色，只有名字，没有自身特点，玩家不会记得祂们的名字，也很难分清谁是谁，所以也不会与角色有共鸣。</p><p>  在游戏结束后，我脑内最有印象的几个角色就是：主角凯尔文、公主艾蕾达斯、凯尔文的妈妈、管家、护卫格斯特、唱歌的桃、喝咖啡的奈奈生。我之所以对祂们有印象就是与玩家有<strong>情感上的互动。</strong></p><p>  例如：管家这个角色。玩家走进管家的小房子，听她谈论女儿喜欢的花，以及最后她帮助主角逃离迷宫。这些是<strong>情感互动</strong>，会给我留下印象。</p><p>  而我能记住奈奈生是因为每次对话都在说咖啡，“咖啡瘾君子”就是这个人物的特点。塑造角色不是把一大堆的设定搬出来。</p><p>  相比设定，希望作者在塑造“有生命的角色”和让玩家共鸣等方面下功夫。</p></li></ul><h2 id="三-总结"><a href="#三-总结" class="headerlink" title="三.总结"></a>三.总结</h2><p>虽然说了这个作品的很多，但我对作者还是持鼓励态度的，批评和反思是为了下一步。希望作者下一部作品能做得更好。</p><p>· 优点：</p><p>美术和音乐都很好，画面漂亮，音乐与环境的配合很好。《温柔的黄昏》我是第一次听到只有贝斯的音乐，蛮符合安宁的黄昏场景</p><p>· 缺点：</p><p>1.剧本的问题（见上）</p><p><strong>没回收的伏线：</strong></p><p>·地下室的魔镜</p><p>·摇铃和洛得思</p><p><strong>没有过多解释的情节：</strong><br>·童年火灾</p><p>·性情大变的妈妈</p><p>·凯尔文的生父</p><p>·凯尔文的演讲</p><p>·阅读卡的作用（也可能是我哪里漏了）</p><p><strong>2.迷惑的引导，如：地下室的摇铃、售票处，最后的船</strong></p><p><strong>3.缺少游戏性（互动性）。</strong></p><p><strong>4.大多角色很平面，没有让角色“活起来”。</strong></p><p><strong>5.难以记住的人名，许多音译名很难记。叹息之城要比布兰科斯托魔法学院更容易记得住。</strong></p><p><strong>6.冗长繁琐的对话。</strong></p><p><strong>7.没有原创的UI，用的是RPG Maker的默认UI，金钱和血条都没用过。</strong></p><hr><p>显示的“发布日期”实际是本文在B站的发布日期，实际本篇文章是在2022年10月04日转发到此。<br>注：这篇文章我是作者。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏评论</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>RPG maker</tag>
+      
+      <tag>RPG游戏</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>夏天的闷热</title>
+    <link href="/2020/05/11/2020Summer/"/>
+    <url>/2020/05/11/2020Summer/</url>
+    
+    <content type="html"><![CDATA[<p>2020年5月11日 星期一 晴带有小雨<br>    今天闷热，我甚是烦躁。关于学习，我的学习进度没有进展，只有作业没有学习。在中午，父亲带我修完自行车，我突然想去独立书店逛逛。<br>    有一段时间没来这了。我进入店门，房间里的布置与以前已大不一样，这个书店的布置老是换来换去。这是一家爱折腾的书店，这里有间咖啡屋，有各种奇离古怪的玩意，每月都会有各式各样的新活动。一家爱折腾的书店，布置经常变幻无常，那也不足为怪了。<br>    我在屋间里打转，好想是一无头苍蝇似的，左摸摸右看看，有时身体就僵在那里，有时我会假装随便看看。逛了一会儿后，我的心已经满足了，就赶紧回到了家。<br>    回到家，我在思索着今天我得到了什么？我的“学习”还没开始，我的精神<br>状态还没有进入“学习”，我的心好像是一直被打扰，或者说 我是在逃避……<br>我的焦虑情绪。我摆脱不了，我只能带着它一同前行。嗯！和它一同前行！<br>—— END ——</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>日常</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>你好！独立博客!</title>
+    <link href="/2020/05/01/Blog/"/>
+    <url>/2020/05/01/Blog/</url>
+    
+    <content type="html"><![CDATA[<p>这是第一篇文章，表示着这个博客正式启动。<br>其实关于搭建独立博客的想法是上个月开始的，这期间一直在适应hexo和更换主题o(￣ヘ￣o)。<br>云托管：gitee<br>博客系统：hexo<br>主题：Volantis<br>图床：SM.MS</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>博客相关</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
