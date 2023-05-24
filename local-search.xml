@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>【Dockerfile】构建一个镜像</title>
+    <link href="/2023/05/24/%E3%80%90Dockerfile%E3%80%91%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%95%9C%E5%83%8F/"/>
+    <url>/2023/05/24/%E3%80%90Dockerfile%E3%80%91%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%95%9C%E5%83%8F/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基本流程"><a href="#基本流程" class="headerlink" title="基本流程"></a>基本流程</h2><p>1.构建一个空文件夹并进入</p><pre><code class="hljs">mkdir newdircd newdir</code></pre><p>2.创建一个Dockerfile文件</p><pre><code class="hljs">touch Dockerfile</code></pre><p>3.编写Dockerfile文件。</p><pre><code class="hljs">vim Dockerfile</code></pre><p>使用该命令进入Dockerfile文件</p><pre><code class="hljs">FROM ubuntuRUN mkdir dir1</code></pre><p>或者</p><pre><code class="hljs">echo &#39;FROM ubuntu&#39;&gt;Dockerfileecho &#39;RUN mkdir dir1&#39;&gt;&gt;Dockerfile</code></pre><p>Dockerfile 常用指令:</p><pre><code class="hljs">FROM 以什么为基础MAINTATINER 镜像维护者姓名或邮箱WORKDIR 指定工作目录RUN 运行CMD  运行容器时执行ARG  指定一些参数EXPOSE 声明端口VOLUME 指定容器挂载的目录USER 指定用户ENV 设定容器环境变量ADD 拷贝文件或目录COPY 与ADD类似，但不具备自动下载或解压ENTRYPOINT 执行shell命令</code></pre><p>4.构建镜像</p><pre><code class="hljs">docker build -t  镜像名:tag .</code></pre><h2 id="示范："><a href="#示范：" class="headerlink" title="示范："></a>示范：</h2><p><strong>例</strong></p><pre><code class="hljs">要求使用Dockerfile构建一个名为testimage:v1的镜像，具体要求如下：·以busybox:latest作为基础镜像·声明暴露3000端口·将变量var1 = &quot;test&quot; 设置为环境变量·设置工作目录为/tmp,在工作目录下创建一个1.txt文件·基于该Dockerfile文件，构建一个名为testimage:v1的镜像</code></pre><p>输入：</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile">mkdir newdir1<br>cd newdir1<br>touch Dockerfile <br>vim Dockerfile  //进入Dockerfile文件编辑<br><span class="hljs-keyword">FROM</span> busybox:latest<br><span class="hljs-keyword">EXPOSE</span> <span class="hljs-number">3000</span><br><span class="hljs-keyword">ENV</span> var1 = <span class="hljs-string">&#x27;test&#x27;</span><br><span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /tmp</span><br><span class="hljs-keyword">RUN</span><span class="language-bash"> <span class="hljs-built_in">touch</span> 1.txt</span><br>// 退出Dockerfile文件<br>dockerfile build -t testimage:v1 . //别忘了逗号<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+      <category>Docker</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>学习笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>【hexo d报错】GH006:Protected branch update failed for refs/heads/master</title>
     <link href="/2023/03/27/20230327a/"/>
     <url>/2023/03/27/20230327a/</url>
