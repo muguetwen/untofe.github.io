@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>\[Hexo\]报错合集</title>
+    <link href="/2023/10/21/2023-10-21-A0/"/>
+    <url>/2023/10/21/2023-10-21-A0/</url>
+    
+    <content type="html"><![CDATA[<p>1.报错：OpenSSL SSL_read: Connection was reset, errno 10054</p><p>原因：服务器的SSL证书没有经过第三方机构签署<br>修复方法：</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">git config -<span class="hljs-built_in">global</span> <span class="hljs-keyword">http</span>.sslVerify <span class="hljs-string">&quot;false&quot;</span><br></code></pre></td></tr></table></figure><p><img src="https://pic.imgdb.cn/item/653337a9c458853aef90dfed.png"></p><p>2.报错:<br> error:GH006:Protected branch update failed for refs&#x2F;heads&#x2F;master<br> error: Cannot force-push to a protected branch.</p><p>修复方法：删除分支保护<br>操作：Settings-branches-Branch protection rules.删除里面的rules</p><p>3.报错：<br>YAMLException: bad indentation of a mapping entry (1:14)<br><img src="https://pic.imgdb.cn/item/65333a9dc458853aef9a1197.png"><br>原因：<br><img src="https://pic.imgdb.cn/item/65333a9ec458853aef9a11bc.png"><br>操作：将半角符号[]换成全角符号【】，或是使用反斜杠来转义字符</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>报错修复</tag>
+      
+      <tag>博客相关</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>【Dockerfile】构建一个镜像</title>
     <link href="/2023/05/24/%E3%80%90Dockerfile%E3%80%91%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%95%9C%E5%83%8F/"/>
     <url>/2023/05/24/%E3%80%90Dockerfile%E3%80%91%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%95%9C%E5%83%8F/</url>
